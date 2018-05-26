@@ -5,4 +5,7 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FactorAuth.Core\FactorAuth.Core.csproj" />
+  </ItemGroup>
 </Project>

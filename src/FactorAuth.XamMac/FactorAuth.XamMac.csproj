@@ -88,6 +88,10 @@
       <Project>{ABDBDDE6-7965-4F22-B804-8CB7A8BCBD57}</Project>
       <Name>FactorAuth.Desktop</Name>
     </ProjectReference>
+    <ProjectReference Include="..\FactorAuth.Core\FactorAuth.Core.csproj">
+      <Project>{0C575D1E-A1E3-41E1-8403-715136A89D35}</Project>
+      <Name>FactorAuth.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Mac\Xamarin.Mac.CSharp.targets" />
 </Project>

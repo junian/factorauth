@@ -156,5 +156,9 @@
       <Project>{C3438A7E-22AF-4A5E-8C4E-0CD4BDF451E0}</Project>
       <Name>FactorAuth.Mobile</Name>
     </ProjectReference>
+    <ProjectReference Include="..\FactorAuth.Core\FactorAuth.Core.csproj">
+      <Project>{0C575D1E-A1E3-41E1-8403-715136A89D35}</Project>
+      <Name>FactorAuth.Core</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>

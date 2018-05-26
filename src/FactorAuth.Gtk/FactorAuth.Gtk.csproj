@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FactorAuth.Desktop\FactorAuth.Desktop.csproj" />
+    <ProjectReference Include="..\FactorAuth.Core\FactorAuth.Core.csproj" />
   </ItemGroup>
 
   <ItemGroup>
