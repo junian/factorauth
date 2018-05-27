@@ -1,17 +1,20 @@
 using System;
+using FactorAuth.Core;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace FactorAuth.Mobile
 {
-    public partial class App : Application
+    public partial class App : Application, IAppKernel
     {
         public App()
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            RegisterServices();
+
+            Run(null);
         }
 
         protected override void OnStart()
@@ -27,6 +30,16 @@ namespace FactorAuth.Mobile
         protected override void OnResume()
         {
             // Handle when your app resumes
+        }
+
+        public void Run(string[] args)
+        {
+            MainPage = new MainPage();
+        }
+
+        public void RegisterServices()
+        {
+            
         }
     }
 }
