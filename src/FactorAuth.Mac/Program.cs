@@ -1,14 +1,19 @@
 ﻿using System;
 using Eto.Forms;
+using FactorAuth.Desktop;
 
 namespace FactorAuth.Mac
 {
-	class MainClass
+	class Program
 	{
 		[STAThread]
 		public static void Main(string[] args)
 		{
-			new Application(Eto.Platforms.Mac64).Run(new MainForm());
+            var platform = new Eto.Mac.Platform();
+
+            var app = new MainApplication(platform);
+
+            app.Run(args);
 		}
 	}
 }

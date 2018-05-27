@@ -119,6 +119,16 @@ namespace FactorAuth.Core
             }
         }
 
+        public void RegisterServices()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Run(string[] args)
+        {
+            throw new NotImplementedException();
+        }
+
         #endregion
 
     }

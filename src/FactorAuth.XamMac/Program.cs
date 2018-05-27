@@ -1,13 +1,18 @@
 ﻿using AppKit;
 using Eto.Forms;
+using FactorAuth.Desktop;
 
 namespace FactorAuth.XamMac
 {
-	static class MainClass
+	static class Program
 	{
 		static void Main(string[] args)
 		{
-			new Application(Eto.Platforms.XamMac2).Run(new MainForm());
+            var platform = new Eto.Mac.Platform();
+
+            var app = new MainApplication(platform);
+
+            app.Run(args);
 		}
 	}
 }

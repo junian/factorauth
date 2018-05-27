@@ -1,14 +1,19 @@
 ﻿using System;
 using Eto.Forms;
+using FactorAuth.Desktop;
 
 namespace FactorAuth.Wpf
 {
-	class MainClass
+	class Program
 	{
 		[STAThread]
 		public static void Main(string[] args)
 		{
-			new Application(Eto.Platforms.Wpf).Run(new MainForm());
+            var platform = new Eto.Wpf.Platform();
+
+            var app = new MainApplication(platform);
+
+            app.Run(args);
 		}
 	}
 }
