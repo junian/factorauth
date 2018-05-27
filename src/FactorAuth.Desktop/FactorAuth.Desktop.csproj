@@ -2,11 +2,6 @@
 	
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
-    <RootNamespace>FactorAuth</RootNamespace>
-    <PackageVersion>1.0</PackageVersion>
-    <Title>FactorAuth</Title>
-    <Copyright>Copyright © 2018</Copyright>
-    <Description>Description of FactorAuth</Description>
   </PropertyGroup>
   
   <ItemGroup>

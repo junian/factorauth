@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
+    <Title>FactorAuth</Title>
+    <Copyright>Copyright © 2018</Copyright>
+    <Description>Cross-platform 2-Factor Authentication Client</Description>
+    <Company>Juniansoft</Company>
+    <Product>FactorAuth</Product>
+    <AssemblyVersion>0.0.1</AssemblyVersion>
+    <FileVersion>$(AssemblyVersion)</FileVersion>
+    <Version>$(AssemblyVersion)</Version>
+    <PackageVersion>$(AssemblyVersion)</PackageVersion>
   </PropertyGroup>
 
 </Project>
