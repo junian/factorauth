@@ -13,4 +13,7 @@
     <PackageVersion>$(AssemblyVersion)</PackageVersion>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MvvmReady" Version="1.2.0" />
+  </ItemGroup>
 </Project>
