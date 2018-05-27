@@ -15,7 +15,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FactorAuth.Desktop\FactorAuth.Desktop.csproj" />
-    <ProjectReference Include="..\FactorAuth.Core\FactorAuth.Core.csproj" />
+    <ProjectReference Include="..\FactorAuth.Desktop\FactorAuth.Desktop.csproj">
+      <TargetFramework>net461</TargetFramework>
+    </ProjectReference>
+    <ProjectReference Include="..\FactorAuth.Core\FactorAuth.Core.csproj">
+      <TargetFramework>net461</TargetFramework>
+    </ProjectReference>
   </ItemGroup>
 </Project>
