@@ -16,6 +16,7 @@
   <ItemGroup>
     <PackageReference Include="MvvmReady" Version="1.2.0" />
     <PackageReference Include="CommandLineParser" Version="2.2.1" />
+    <PackageReference Include="Otp.NET" Version="1.2.0" />
   </ItemGroup>
 
 </Project>
