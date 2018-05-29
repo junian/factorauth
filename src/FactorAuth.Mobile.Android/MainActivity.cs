@@ -19,8 +19,20 @@ namespace FactorAuth.Mobile.Droid
 
             base.OnCreate(bundle);
 
+            InitPlugins();
+
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
+        }
+
+        private void InitPlugins()
+        {
+            ZXing.Net.Mobile.Forms.Android.Platform.Init();
+        }
+
+        public override void OnRequestPermissionsResult(int requestCode, string[] permissions, Permission[] grantResults)
+        {
+            global::ZXing.Net.Mobile.Android.PermissionsHandler.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
     }
 }
