@@ -3,6 +3,7 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net461</TargetFramework>
+    <AssemblyName>FactorAuth</AssemblyName>
   </PropertyGroup>
 	
   <ItemGroup>
