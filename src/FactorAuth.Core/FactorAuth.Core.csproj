@@ -17,6 +17,7 @@
     <PackageReference Include="MvvmReady" Version="1.2.0" />
     <PackageReference Include="CommandLineParser" Version="2.2.1" />
     <PackageReference Include="Otp.NET" Version="1.2.0" />
+    <PackageReference Include="ZXing.Net.Mobile" Version="2.4.1" />
   </ItemGroup>
 
 </Project>
